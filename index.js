@@ -7,10 +7,19 @@ function theBeatlesPlay (arrMuscians, arrInstruments) {
 }
 
 function johnLennonFacts(arrFacts) {
-  var i = 0
+  var i = 0;
   while (i < arrFacts.length) {
     arrFacts[i] = arrFacts[i] + "!!!";
     i++;
   }
   return arrFacts;
+}
+
+function iLoveBeatles (num) {
+  newArray2 = [];
+  do {
+    newArray2.push("I love the Beatles!");
+    num++;
+  } while (num < 15);
+  return newArray2;
 }
